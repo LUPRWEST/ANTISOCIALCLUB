@@ -1,0 +1,66 @@
+<HTML>
+<head>
+	<style type="text/css">
+	
+		p.first:first-letter {
+      color: #ff0000;
+      font-size:xx-large
+      }
+
+      p.first:first-line
+      {
+      color: #0000ff;
+      font-variant: small-caps
+      }
+		
+		.center {text-align: center}
+		
+		a.one: link {color: #ff0000} 
+		<!--link: 방문하지 않는 사이트에 링크가 걸렸을 때-->
+		a.one: visited {color: #0000ff} 
+		<!--visited: 방문했던 사이트에 링크가 걸렸을 때-->
+		a.one: hover {color: #ffcc00}
+		<!--hover: 마우스가 요소 위에 위치할 때-->
+
+		a.two:link {color: #ff0000}
+		a.two:visited {color: #0000ff}
+		a.two:hover {font-size: 150%}
+
+		a.three:link {color: #ff0000}
+      a.three:visited {color: #0000ff}
+		a.three:hover {background: #66ff66}
+	
+		a.four:link {color: #ff0000}
+		a.four:visited {color: #0000ff}
+		a.four:hover {font-family: verdana}
+
+		a.five:link {color: #ff0000; text-decoration: none}
+		a.five:visited {color: #0000ff; text-decoration: none}
+		a.five:hover {text-decoration: underline}
+		
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	<p class="first">
+	You can use elements to mix. :first-letter and :first-line Preuse-element can affact special effect to first letter and line.
+	</p> 
+
+	<p class="center">
+	this text is 
+	located in center
+	</p>
+
+	<p> Put the mouse on the link</p>
+	
+	<p><b><a class="one" href="http://www.daum.net" target="_blank"> color changed.</a></b></p>
+	<p><b><a class="two" href="http://www.daum.net" target="_blank">font size changed.</a></b></p>
+   <p><b><a class="three" href="http://www.daum.net" target="_blank">background changed.</a></b></p>
+	<p><b><a class="four" href="http://www.daum.net" target="_blank">font style changed.</a></b></p>
+	<p><b><a class="five" href="http://www.daum.net" target="_blank">under line appeared.</a></b></p>
+
+</body>
+</HTML>
