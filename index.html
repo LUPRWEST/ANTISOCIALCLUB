@@ -1,0 +1,124 @@
+
+<HTML>
+<head>
+	<title> Welcome this Website. </title>
+</head>
+
+<body>
+
+<p style="font-family:verdana; font-size: 90%;color:green">
+You Can use CSS, selecting font size and color.
+&copy;
+<br>
+And you can use <sub>subscript</sub>
+<br>
+<marquee>This text is blinking? just moving..</marquee>
+</p>
+
+<h4>A nasted List:</h4>
+<ol type="a">
+	<li>Coffee</li>
+	<li>Tea
+		<ul type="disk">
+		<li>Black tea</li>
+		<li>Green tea</li>
+			<ul>
+			<li>China</li>
+			<li>Africa</li>
+			</ul>
+		</li>
+		</ul>
+	</li>
+	<li>Milk</li>
+</ol>
+
+<h4>A Definition List:</h4>
+<dl>
+	<dt>Coffee</dt>
+	<dd>Black hot drink</dd>
+	<dt>Milk</dt>
+	<dd>White cold drink</dd>
+</dl>
+
+<table border=1>
+	<caption align="bottom"> Table</caption>
+	
+	<tr>
+		<th>Heading 1</th>
+		<th>Heading 2</th>
+	</tr>
+	
+	<tr>
+		<td>
+			<table border="1" bgcolor="pink">
+			<tr>
+				<td>A</td>
+				<td>B</td>
+			</tr>
+			</table>
+		</td>	
+		<td>
+			<ul>
+				<li>C</li>
+				<li>D</li>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" bgcolor="skyblue">cell</td>
+	</tr>
+</table>
+
+<marquee height="50" width="500" bgcolor="#8F8FBD"> select moving height, bgcolor, and width </marquee>
+
+<marquee behavior="alternate" direction="right" scrollamount="50">behavior:alternate adapt & text direction & text scrollamount</marquee>
+<marquee behavior="slide" loop="2"  scrolldelay="1">behavior:slide adapt & text loop & text speed</marquee>
+
+<meta name="keywords" content="HTML & CSS & JS">
+<meta name="discription" content="Practice Markup language">
+<meta name="author" content="ANTISOCIAL">
+
+<form>
+User Name :
+<input type="text" name="username">
+<br>
+User Passward :
+<input type="password" name="userpassward">
+<br>
+
+<textarea rows="10" cols="30">
+You can modify this text box.
+</textarea>
+<br>
+
+You can check this ckeckbox?
+<br>
+<input type="checkbox" name="Markuplanguage" value="HTML">HTML<br>
+<input type="checkbox" name="Markuplanguage" value="CSS">CSS<br>
+<input type="checkbox" name="Markuplanguage" value="JS">JS
+
+Who are you?<br>
+<input type="radio" name="creature" value="human">HUMAN<br>
+<input type="radio" name="creature" value="authorgod">AUTHOR GOD<br>
+
+<form name="input" action="result.jsp" method="get">
+	ID: <input type="text" name="id">
+<input type="submit" value="INPUT">
+<input type="reset" value="RESET">
+</form>
+
+<form action="">
+<p>select your head</p>
+<select name="heads" multiple>
+	<option value="">NULL</option>
+	<option value="pencil">Pencil</option>
+	<option value="disc">DISC</option>
+	<option value="dio">DIO</option>
+	<br>
+</form>
+
+<form>
+	<input type="file" name="pic" accept="image/gif" />
+</form>	
+
+</body>
+</HTML>
